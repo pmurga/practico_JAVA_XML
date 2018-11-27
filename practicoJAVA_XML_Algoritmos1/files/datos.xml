@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+	<epoca>
+		<nombre>Epoca 1</nombre>
+		<libro>
+			<nombre>Autor Libro 1</nombre>
+			<titulo>Titulo Del Libro 1</titulo>
+			<versiones>
+				<version>
+					<lugar>Lugar libro 1</lugar>
+				</version>
+				<version>
+					<lugar>Lugar libro 2</lugar>
+				</version>
+			</versiones>
+		</libro>
+		<libro>
+			<nombre>Autor libro 2</nombre>			
+			<versiones>
+			</versiones>
+			<titulo>Titulos del Libro 2</titulo>
+		</libro>
+		<pelicula>
+			<nombre>Autor Pelicula 1</nombre>
+			<titulo>Titulo Pelicula 1</titulo>
+			<versiones>
+				<version>
+					<lugar>Lugar Pelicula 1</lugar>
+				</version>
+				<version>
+					<lugar>Lugar Pelicula 2</lugar>
+				</version>
+			</versiones>
+		</pelicula>
+	</epoca>
+	<epoca>
+		<nombre>Epoca 2</nombre>
+		<libro>
+			<nombre>Autor libro 3</nombre>
+			<titulo>Titulos del Libro 3</titulo>
+		</libro>
+		<libro>
+			<nombre>Autor libro 4</nombre>			
+			<versiones>
+			</versiones>
+			<titulo>Titulos del Libro 4</titulo>
+		</libro>
+	</epoca>
+	<revistas>
+		<revista>
+			<titulo>Revista 1</titulo>
+		</revista>
+	</revistas>
+</biblioteca>

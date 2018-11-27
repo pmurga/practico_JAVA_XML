@@ -1,0 +1,9 @@
+Epoca:Epoca 1,Nombre:Autor Libro 1,Titulo:Titulo Del Libro 1,Lugar:Lugar libro 1
+Epoca:Epoca 1,Nombre:Autor Libro 1,Titulo:Titulo Del Libro 1,Lugar:Lugar libro 2
+Epoca:Epoca 1,Nombre:Autor Libro 1,Titulo:Titulo Del Libro 1
+Epoca:Epoca 1,Nombre:Autor libro 2,Titulo:Titulos del Libro 2
+Epoca:Epoca 1,Nombre:Autor Pelicula 1,Titulo:Titulo Pelicula 1,Lugar:Lugar Pelicula 1
+Epoca:Epoca 1,Nombre:Autor Pelicula 1,Titulo:Titulo Pelicula 1,Lugar:Lugar Pelicula 2
+Epoca:Epoca 2,Nombre:Autor libro 3,Titulo:Titulos del Libro 3
+Epoca:Epoca 2,Nombre:Autor libro 4,Titulo:Titulos del Libro 4
+Revista:Revista 1

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<primero path="/biblioteca">
+	<iteracion path="epoca">
+		<dato>
+			<!-- nombre epoca -->
+			<primero path="nombre"/>
+		</dato>
+		<iteracion path="libro" final="Epoca:$1,Nombre:$2,Titulo:$3">
+			<dato>
+				<!-- nombre Autor -->
+				<primero path="nombre"/>
+			</dato>
+			<dato>
+				<!-- titulo del libro -->
+				<primero path="titulo"/>
+			</dato>
+			<opt path="versiones">
+				<iteracion path="version" final="Epoca:$1,Nombre:$2,Titulo:$3,Lugar:$4">
+					<dato>
+						<primero path="lugar"/>
+					</dato>
+				</iteracion>
+			</opt>
+		</iteracion>
+		<iteracion path="pelicula">
+			<dato>
+				<!-- nombre Autor -->
+				<primero path="nombre"/>
+			</dato>
+			<dato>
+				<!-- titulo del libro -->
+				<primero path="titulo"/>
+			</dato>
+			<opt path="versiones" final="Epoca:$1,Nombre:$2,Titulo:$3">
+				<iteracion path="version" final="Epoca:$1,Nombre:$2,Titulo:$3,Lugar:$4">
+					<dato>
+						<primero path="lugar"/>
+					</dato>
+				</iteracion>
+			</opt>
+		</iteracion>
+	</iteracion>
+	<iteracion path="revistas/revista" final="Revista:$1">
+		<dato>
+			<primero path="titulo"/>
+		</dato>
+	</iteracion>
+</primero>
